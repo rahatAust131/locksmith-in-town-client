@@ -1,0 +1,23 @@
+.products-container {
+    border-radius: 8px;
+    width: 100%;
+    margin: auto;
+}
+.product-card {
+    background-color: lightgray;
+}
+.product-card img {
+    display: block;
+    width: 50%;
+    margin: auto;
+}
+.product-card-footer {
+    border: none;
+    background: none;
+}
+
+@media only screen and (max-width: 600px) {
+    .products-container {
+        display: none;
+    }
+}

@@ -1,0 +1,40 @@
+.service-container {
+    border-radius: 8px;
+    width: 100%;
+    margin: auto;
+}
+.order-btn {
+    display: block;
+    width: 50%;
+    margin: auto;
+    background-color: darkorange;
+}
+.service-card {
+    background-color: darkmagenta;
+    color: whitesmoke;
+    overflow: hidden;
+    transition: all 0.45s ease-in-out;
+}
+.service-card:hover {
+    background-color: darkgray;
+}
+.service-card h5 {
+    color: cyan;
+}
+.order-btn:hover {
+    background-color: darkorchid;
+    color: whitesmoke;
+}
+.service-card-img {
+    transition: all 1.5s ease-in;
+    width: 50%;
+    display: block;
+    margin: auto;
+}
+.service-card-img:hover {
+    transform: rotate(360deg);
+}
+#service-card-footer {
+    background: none;
+    border: none;
+}

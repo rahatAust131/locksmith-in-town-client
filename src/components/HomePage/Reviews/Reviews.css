@@ -1,0 +1,16 @@
+.review-card {
+    background-color: darkmagenta;
+    color: whitesmoke
+}
+.review-container {
+    background-color: #292929;
+    border-radius: 8px;
+    color: beige;
+    width: 100%;
+    margin: auto;
+}
+#review-card-footer {
+    background: none;
+    border: none;
+    margin: 5px 0;
+}

@@ -1,0 +1,11 @@
+.home-container {
+    display: block;
+    width: 95%;
+    margin: auto;
+}
+
+@media only screen and (max-width: 600px) {
+    .home-container {
+        width: 100%;
+    }
+}

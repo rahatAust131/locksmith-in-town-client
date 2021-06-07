@@ -1,0 +1,32 @@
+.footer-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    background: url('../../images/footer-bg1.jpg');
+}
+.footer-bottom {
+    height: auto;
+    color: yellowgreen;
+    text-align: center;
+    background: url('../../images/footer-bg2.jpg');
+}
+.icon {
+    margin: 5px;
+    padding: 3px;
+    font-size: 1.5rem;
+}
+.text-link {
+    text-decoration: none;
+    margin: 5px 0;
+    padding: 3px;
+}
+.text-link:hover {
+    color: greenyellow;
+}
+
+@media only screen and (max-width: 600px) {
+    .footer-top {
+        display: none;
+    }
+}

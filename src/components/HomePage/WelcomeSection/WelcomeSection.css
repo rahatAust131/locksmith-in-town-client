@@ -1,0 +1,10 @@
+.welcome-container {
+    border: 1px solid gray;
+    border-radius: 8px;
+}
+.welcome-text {
+    border-left: 2px solid tomato;
+    margin: 5px;
+    padding: 5px;
+    position: relative;
+}
